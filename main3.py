@@ -33,6 +33,6 @@ if use_nouse == 'y':
 	chrs = first_name + last_name + address + date + time
 	import time
 
-for i in range(5):
+for i in range(10000):
     print("." , end=" ", flush=True)
-    time.sleep(1)
+    time.sleep(0.01)
