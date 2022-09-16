@@ -10,7 +10,9 @@ print ('''
    110  00  000         111   000       110    101        101
     010 00 111         010   010          001  001        010
      110 001          100  111             110 111        101
-      
+                     
+		   tiktok:  @jahsehrare
+		   instagram: @spookyle4n
     
 ''')
 use_nouse = str(input(' [?] wanna nuke someones balls? [y/N]: '))
