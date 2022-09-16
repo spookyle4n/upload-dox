@@ -33,6 +33,7 @@ print(date + " " + "[*]")
 print(time + " " + "[*]")
 
 import time
+
 for i in range(1000):
     print('nuking [!]', end=' ', flush=True)
-    time.sleep(0.01)
+    time.sleep(0.1)
