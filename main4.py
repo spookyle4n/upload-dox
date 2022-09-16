@@ -16,7 +16,7 @@ print ('''
     
 ''')
 
-use_nouse = str(input(' [?] wanna nuke someones balls? [y/N]: '))
+use_nouse = str(input(' [?] wanna nuke someone? [y/N]: '))
 if use_nouse == 'N': 
     exit()
 if use_nouse == 'y':
@@ -31,7 +31,8 @@ print(last_name + " " + "[*]")
 print(address + " " + "[*]")
 print(date + " " + "[*]")
 print(time + " " + "[*]")
+
 import time
-for i in range(10000):
-    print("nuking" , end=" ", flush=True)
+for i in range(1000):
+    print('nuking [!]', end=' ', flush=True)
     time.sleep(0.01)
