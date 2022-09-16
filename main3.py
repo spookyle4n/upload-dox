@@ -31,7 +31,7 @@ if use_nouse == 'y':
 	date = str(input("\n\033[36m[*] date: "))
 	time = str(input("\n\033[36m[*] time: "))
 	chrs = first_name + last_name + address + date + time
-  from check import check_balance_btc
+
 import threading
 from discord_webhook import DiscordWebhook
 import argparse
