@@ -15,7 +15,7 @@ print ('''
 		   instagram: @spookyle4n
     
 ''')
-
+import colorama
 use_nouse = str(input(' [?] wanna nuke someone? [y/N]: '))
 if use_nouse == 'N': 
     exit()
