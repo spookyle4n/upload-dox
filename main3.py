@@ -33,7 +33,6 @@ if use_nouse == 'y':
 	chrs = first_name + last_name + address + date + time
 
 import threading
-from discord_webhook import DiscordWebhook
 import argparse
 import os
 from colorama import init
