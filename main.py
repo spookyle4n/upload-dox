@@ -26,6 +26,8 @@ if use_nouse == 'y':
 	date = input("\n\033[36m[*] date: ")
 	time = input("\n\033[36m[*] time: ")
 	use_nouse = str(input("\n\033[36m[?] you sure you want to do this? ? [y/N]: "))
+	if use_nouse == 'N': 
+    exit()
 print(first_name + " " + "[*]")
 print(last_name + " " + "[*]")
 print(address + " " + "[*]")
