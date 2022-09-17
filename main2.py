@@ -2,7 +2,7 @@
 
 # claiming this script as your own will result in a horrible death #
 
-print(''''\033[31m'
+print('''\033[31m
 
 010            001  011      011   110100     10110010010 00110110001
  101          101    111    001   011  101        001         110
@@ -35,34 +35,34 @@ if use_nouse == 'y':
 import time
 
 print('loading...\n\n', end=' ', flush=True)
-time.sleep(2)
+time.sleep(1)
 
-print("victims first name : " + " " + first_name + " " + "[*]")
-
-for i in range(1):
-    print('loading...\n\n', end=' ', flush=True)
-    time.sleep(1)
-print("victims last name : " + " " + last_name + " " + "[*]")
+print("victims first name : " + " " + first_name + " " + "\n")
 
 print('loading...\n\n', end=' ', flush=True)
 time.sleep(1)
 
-print("victims address : " + " " + address + " " + "[*]")
+print("victims last name : " + " " + last_name + " " + "\n")
 
 print('loading...\n\n', end=' ', flush=True)
 time.sleep(1)
 
-print("victims IP address : " + " " + ip + " " + "[*]")
+print("victims address : " + " " + address + " " + "\n")
 
 print('loading...\n\n', end=' ', flush=True)
 time.sleep(1)
 
-print("age of victim : " + " " + age + " " + "[*]")
+print("victims IP address : " + " " + ip + " " + "\n")
+
+print('loading...\n\n', end=' ', flush=True)
+time.sleep(1)
+
+print("age of victim : " + " " + age + " " + "\n")
 
 use_nouse = str(input('[?] is this information correct? [y/N] : '))
 if use_nouse == 'N': exit()
 
-print("\033[31m' [!] loading script [!] ")
+print(" [!] loading script [!] ")
 
 import time
 
@@ -72,6 +72,6 @@ for i in range(5):
 
 import time
 
-for i in range(1000):
-    print('nuking [!]', end=' ', flush=True)
-    time.sleep(0.05)
+for i in range(10000):
+    print("\033[31m nuking [!]", end=' ', flush=True)
+    time.sleep(0.01)
