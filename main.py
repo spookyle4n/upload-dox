@@ -11,7 +11,7 @@ print('''\033[31m
     010 00 111          010    010         001    001         010
      110  001          100   111            110   111         101     
 ''')
-print('''              educational purposes only!
+print('''              educational purposes only ;)
 
 		   tiktok:  @jahsehrare
 		   instagram: @spookyle4n
