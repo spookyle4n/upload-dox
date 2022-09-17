@@ -20,7 +20,7 @@ print('''\033[1;32m
 
 ''')
 
-use_nouse = str(input(' [?] wanna dox someone? [y/N]: '))
+use_nouse = str(input(' [?] by checking "y" i understand that i am responsible for all actions i partake in [y/N]: '))
 if use_nouse == 'N': exit()
 
 if use_nouse == 'y':
@@ -32,35 +32,37 @@ if use_nouse == 'y':
     use_nouse = str(input("\n\033[36m[?] you sure you want to do this? ? [y/N]: "))
     if use_nouse == 'N': exit()
 
-print("victims first name : " + " " + first_name + " " + "[*]")
-
 import time
 
+print('loading...\n\n', end=' ', flush=True)
+time.sleep(2)
+
+print("victims first name : " + " " + first_name + " " + "[*]")
+
 for i in range(1):
-    print('loading...', end=' ', flush=True)
+    print('loading...\n\n', end=' ', flush=True)
     time.sleep(1)
 print("victims last name : " + " " + last_name + " " + "[*]")
 
-print('loading...', end=' ', flush=True)
+print('loading...\n\n', end=' ', flush=True)
 time.sleep(1)
 
 print("victims address : " + " " + address + " " + "[*]")
 
-print('loading...', end=' ', flush=True)
+print('loading...\n\n', end=' ', flush=True)
 time.sleep(1)
 
 print("victims IP address : " + " " + ip + " " + "[*]")
 
-print('loading...', end=' ', flush=True)
+print('loading...\n\n', end=' ', flush=True)
 time.sleep(1)
 
 print("age of victim : " + " " + age + " " + "[*]")
 
-print('loading...', end=' ', flush=True)
-time.sleep(1)
-
-use_nouse = str(input(' is this information correct? [y/N] : '))
+use_nouse = str(input('[?] is this information correct? [y/N] : '))
 if use_nouse == 'N': exit()
+
+print("\033[31m' [!] loading script [!] ")
 
 import time
 
