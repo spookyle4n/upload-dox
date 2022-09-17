@@ -29,40 +29,43 @@ if use_nouse == 'y':
     address = input("\n\033[36m[*] Address: ")
     ip = input("\n\033[36m[*] ip: ")
     age = input("\n\033[36m[*] age: ")
-    use_nouse = str(input("\n\033[36m[?] you sure you want to do this? ? [y/N]: "))
+    use_nouse = str(input("\n\033[36m[?] you sure you want to do this? [y/N]: \n"))
     if use_nouse == 'N': exit()
 
 import time
 
-print('loading...\n\n', end=' ', flush=True)
+print('', end=' ', flush=True)
 time.sleep(1)
 
 print("victims first name : " + " " + first_name + " " + "\n")
 
-print('loading...\n\n', end=' ', flush=True)
+print('', end=' ', flush=True)
 time.sleep(1)
 
 print("victims last name : " + " " + last_name + " " + "\n")
 
-print('loading...\n\n', end=' ', flush=True)
+print('', end=' ', flush=True)
 time.sleep(1)
 
 print("victims address : " + " " + address + " " + "\n")
 
-print('loading...\n\n', end=' ', flush=True)
+print('', end=' ', flush=True)
 time.sleep(1)
 
 print("victims IP address : " + " " + ip + " " + "\n")
 
-print('loading...\n\n', end=' ', flush=True)
+print('', end=' ', flush=True)
 time.sleep(1)
 
 print("age of victim : " + " " + age + " " + "\n")
 
+print('', end=' ', flush=True)
+time.sleep(1)
+
 use_nouse = str(input('[?] is this information correct? [y/N] : '))
 if use_nouse == 'N': exit()
 
-print(" [!] loading script [!] ")
+print("\n [!] loading script [!] \n")
 
 import time
 
@@ -73,5 +76,5 @@ for i in range(5):
 import time
 
 for i in range(10000):
-    print("\033[31m nuking [!]", end=' ', flush=True)
+    print("\033[31m\n nuking [!]", end=' ', flush=True)
     time.sleep(0.01)
