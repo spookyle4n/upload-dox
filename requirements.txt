@@ -1,0 +1,8 @@
+requests
+argparse
+colorama
+netaddr
+cloudscraper
+selenium
+undetected_chromedriver
+pysocks
