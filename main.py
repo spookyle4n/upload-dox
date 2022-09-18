@@ -1,4 +1,4 @@
-# coded by wyatt gierer #
+# coded by wyatt g#
 
 # claiming this script as your own will result in a horrible death #
 
@@ -11,12 +11,13 @@ print('''\033[31m
     010 00 111          010    010         001    001         010
      110  001          100   111            110   111         101     
 ''')
-print('''              educational purposes only ;)
+print('''              educational purposes only!
 
 		   tiktok:  @jahsehrare
 		   instagram: @spookyle4n
 
 ''')
+
 
 use_nouse = str(input(' [?] for educational purposes only [y/N]: '))
 if use_nouse == 'N': exit()
@@ -58,7 +59,7 @@ print("victims IP address : " + " " + ip + " " + "\n")
 print('', end=' ', flush=True)
 time.sleep(1)
 
-print("age of victim : " + " " + age + " " + "\n")
+print("victims age : " + " " + age + " " + "\n")
 
 print('', end=' ', flush=True)
 time.sleep(1)
@@ -88,7 +89,7 @@ if use_nouse == 'N':
     ip = input("\n\033[36m[*] ip: ")
     age = input("\n\033[36m[*] age: ")
 
-print("\n [!] loading script [!] \n")
+print("\n\033[31m [!] loading script [!] \n")
 
 import time
 
