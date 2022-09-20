@@ -80,15 +80,14 @@ if use_nouse == 'y':
 
     print("victims cellphone number : " + " " + number + " " + "\n")
 
-use_nouse = str(input('[?] is this information correct? [y/N] : '))
+use_nouse = str(input('\n[?] is this information correct? [y/N] : '))
 if use_nouse == 'N':
-    first_name = input("\n\033[36m[*] First Name: ")
+    first_name = input("\n\033[36m[*]  First Name: ")
     last_name = input("\n\033[36m[*] Last Name: ")
     address = input("\n\033[36m[*] Address: ")
     ip = input("\n\033[36m[*] ip: ")
     age = input("\n\033[36m[*] age: ")
 
-if use_nouse == 'y':
 print("\n\033[31m [!] loading script [!] \n")
 
 import time
