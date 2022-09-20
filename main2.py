@@ -38,7 +38,7 @@ import time
 print('', end=' ', flush=True)
 time.sleep(1)
 
-print("\nvictims first name : " + " " + first_name + " " + "\n")
+print("victims first name : " + " " + first_name + " " + "\n")
 
 print('', end=' ', flush=True)
 time.sleep(1)
