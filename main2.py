@@ -93,11 +93,11 @@ print("\n\033[31m [!] loading script [!] \n")
 import time
 
 for i in range(5):
-    print('\033[31m   .\t', end=' ', flush=True)
+    print('\033[31m  .\t', end=' ', flush=True)
     time.sleep(1)
 
 import time
 
 for i in range(10000):
-    print("\033[31m\n uploading [!]", end=' ', flush=True)
+    print("\033[31m\n nuking [!]", end=' ', flush=True)
     time.sleep(0.01)
