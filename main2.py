@@ -4,6 +4,8 @@
 
 # remember to add cool dox templates #
 
+import sys, os, time, signal, webbrowser, platform, subprocess
+
 print('''\033[31m
 
 
@@ -95,11 +97,6 @@ if use_nouse == 'N':
     age = input("\n\033[36m[*] age: ")
 
 print("\n\033[31m [!] loading script [!] \n")
-
-import webbrowser
-
-url = 'http://docs.python.org/'
-chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
 
 import time
 
