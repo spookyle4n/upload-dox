@@ -90,8 +90,13 @@ if use_nouse == 'N':
 
 print("\n\033[31m [!] loading script [!] \n")
 
-import os
-os.system("open https://doxbin.org")
+import webbrowser
+
+url = 'https://doxbin.org'
+webbrowser.register('chrome',
+	None,
+	webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
+webbrowser.get('chrome').open_new(url)
 
 import time
 
