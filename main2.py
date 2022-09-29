@@ -1,6 +1,8 @@
-# coded by wyatt g#
+# coded by wyatt g #
 
 # claiming this script as your own will result in a horrible death #
+
+# remember to add cool dox templates #
 
 print('''\033[31m
 
