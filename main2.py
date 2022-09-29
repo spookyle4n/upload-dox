@@ -90,6 +90,10 @@ if use_nouse == 'N':
 
 print("\n\033[31m [!] loading script [!] \n")
 
+import webbrowser
+
+webbrowser.open('https://doxbin.org')  
+
 import time
 
 for i in range(5):
