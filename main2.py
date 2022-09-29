@@ -94,11 +94,8 @@ print("\n\033[31m [!] loading script [!] \n")
 
 import webbrowser
 
-url = 'https://doxbin.org'
-webbrowser.register('chrome',
-	None,
-	webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
-webbrowser.get('chrome').open_new(url)
+url = 'http://docs.python.org/'
+chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
 
 import time
 
