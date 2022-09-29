@@ -96,7 +96,15 @@ if use_nouse == 'N':
     ip = input("\n\033[36m[*] ip: ")
     age = input("\n\033[36m[*] age: ")
 
+if use_nouse == 'y'
+webbrowser.open('https://doxbin.org')
+time.sleep(2)
+menu()
+
 print("\n\033[31m [!] loading script [!] \n")
+
+Tracker = input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
+
 
 import time
 
