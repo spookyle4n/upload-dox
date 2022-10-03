@@ -45,47 +45,47 @@ if use_nouse == 'y':
 import time
 
 print('', end=' ', flush=True)
-time.sleep(1)
+time.sleep(0.5)
 
 print("victims first name : " + " " + first_name + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(1)
+time.sleep(0.5)
 
 print("victims last name : " + " " + last_name + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(1)
+time.sleep(0.5)
 
 print("victims address : " + " " + address + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(1)
+time.sleep(0.5)
 
 print("victims IP address : " + " " + ip + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(1)
+time.sleep(0.5)
 
 print("victims age : " + " " + age + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(1)
+time.sleep(0.5)
 
 if use_nouse == 'y':
 
     print('', end=' ', flush=True)
-    time.sleep(1)
+    time.sleep(0.5)
 
     print("victims social medias : " + " " + socials + " " + "\n")
 
     print('', end=' ', flush=True)
-    time.sleep(1)
+    time.sleep(0.5)
 
     print("victims date of birth : " + " " + DOT + " " + "\n")
 
     print('', end=' ', flush=True)
-    time.sleep(1)
+    time.sleep(0.5)
 
     print("victims cellphone number : " + " " + number + " " + "\n")
 
