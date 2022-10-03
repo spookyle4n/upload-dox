@@ -44,9 +44,6 @@ if use_nouse == 'y':
 
 import time
 
-print('', end=' ', flush=True)
-time.sleep(0.5)
-
 print("victims first name : " + " " + first_name + " " + "\n")
 
 print('', end=' ', flush=True)
