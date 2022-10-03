@@ -97,7 +97,7 @@ if use_nouse == 'N':
     ip = input("\n\033[36m[*] ip: ")
     age = input("\n\033[36m[*] age: ")
 
-if use_nouse == 'y'
+if use_nouse == 'y':
 webbrowser.open('https://doxbin.org')
 time.sleep(2)
 menu()
