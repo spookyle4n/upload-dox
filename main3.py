@@ -1,11 +1,8 @@
-# coded by wyatt g #
+# coded by wyatt g#
 
 # claiming this script as your own will result in a horrible death #
 
-# remember to add cool dox templates #
-
 print('''\033[31m
-
 
 010            001  011      011   110100     10110010010 00110110001  101
  101          101    111    001   011  101        001         110      001
@@ -14,12 +11,8 @@ print('''\033[31m
     010 00 111          010    010         001    001         010      
      110  001          100   111            110   111         101      000 
      
-     
 ''')
-print('''           
-
-                 educational purposes only!
-		 
+print('''              educational purposes only!
 
 		   tiktok:  @jahsehrare
 		   instagram: @spookyle4n
@@ -36,45 +29,54 @@ if use_nouse == 'y':
     age = input("\n\033[36m[*] age: ")
     use_nouse = str(input("\n\033[36m[?] use advanced options? [y/N]: "))
     if use_nouse == 'y':
-    DOT = input("\n\033[36m[*] date of birth: ")
-    number = input("\n\033[36m[*] cellphone number: ")
+        socials = input("\n\033[36m[*] social medias: ")
+        DOT = input("\n\033[36m[*] date of birth: ")
+        number = input("\n\033[36m[*] cellphone number: ")
 
 import time
 
-print("\nvictims first name : " + " " + first_name + " " + "\n")
+print('', end=' ', flush=True)
+time.sleep(1)
+
+print("victims first name : " + " " + first_name + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(0.5)
+time.sleep(1)
 
 print("victims last name : " + " " + last_name + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(0.5)
+time.sleep(1)
 
 print("victims address : " + " " + address + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(0.5)
+time.sleep(1)
 
 print("victims IP address : " + " " + ip + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(0.5)
+time.sleep(1)
 
 print("victims age : " + " " + age + " " + "\n")
 
 print('', end=' ', flush=True)
-time.sleep(0.5)
+time.sleep(1)
 
 if use_nouse == 'y':
 
     print('', end=' ', flush=True)
-    time.sleep(0.5)
+    time.sleep(1)
+
+    print("victims social medias : " + " " + socials + " " + "\n")
+
+    print('', end=' ', flush=True)
+    time.sleep(1)
 
     print("victims date of birth : " + " " + DOT + " " + "\n")
 
     print('', end=' ', flush=True)
-    time.sleep(0.5)
+    time.sleep(1)
 
     print("victims cellphone number : " + " " + number + " " + "\n")
 
@@ -86,13 +88,11 @@ if use_nouse == 'N':
     ip = input("\n\033[36m[*] ip: ")
     age = input("\n\033[36m[*] age: ")
 
-if use_nouse == 'y':
-webbrowser.open('https://doxbin.org')
-time.sleep(2)
-menu()
-
 print("\n\033[31m [!] loading script [!] \n")
 
+import webbrowser
+
+webbrowser.open('https://doxbin.org')  
 
 import time
 
