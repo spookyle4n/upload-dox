@@ -4,8 +4,6 @@
 
 # remember to add cool dox templates #
 
-import sys, os, time, signal, webbrowser, platform, subprocess
-
 print('''\033[31m
 
 
@@ -100,8 +98,6 @@ time.sleep(2)
 menu()
 
 print("\n\033[31m [!] loading script [!] \n")
-
-Tracker = input("\033[1;35m D0xTr\033[0;31m@\033[1;35mck3r\033[1;m:~\033[1;34m/\033[1;m$\033[1;35m ")
 
 
 import time
