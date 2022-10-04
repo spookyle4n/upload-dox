@@ -71,11 +71,6 @@ if use_nouse == 'y':
     print('', end=' ', flush=True)
     time.sleep(0.5)
 
-    print("victims social medias : " + " " + socials + " " + "\n")
-
-    print('', end=' ', flush=True)
-    time.sleep(0.5)
-
     print("victims date of birth : " + " " + DOT + " " + "\n")
 
     print('', end=' ', flush=True)
