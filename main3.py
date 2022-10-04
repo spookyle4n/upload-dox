@@ -36,7 +36,6 @@ if use_nouse == 'y':
     age = input("\n\033[36m[*] age: ")
     use_nouse = str(input("\n\033[36m[?] use advanced options? [y/N]: "))
     if use_nouse == 'y':
-    socials = input("\n\033[36m[*] social medias: ")
     DOT = input("\n\033[36m[*] date of birth: ")
     number = input("\n\033[36m[*] cellphone number: ")
 
