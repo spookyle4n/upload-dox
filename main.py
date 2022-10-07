@@ -18,11 +18,6 @@ print('''              educational purposes only!
 
 ''')
 
-
-use_nouse = str(input(' [?] for educational purposes only [y/N]: '))
-if use_nouse == 'N': exit()
-
-if use_nouse == 'y':
     first_name = input("\n\033[36m[*] First Name: ")
     last_name = input("\n\033[36m[*] Last Name: ")
     address = input("\n\033[36m[*] Address: ")
