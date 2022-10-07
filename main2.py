@@ -30,5 +30,6 @@ print('''
 		   instagram: @spookyle4n
 ''')
 
-use_nouse = str(input(' [?] open doxbin.org [y/N]: '))
+use_nouse = str(input(' [?] open doxbin.org [y/n]: '))
 if use_nouse == 'y': webbrowser.open('https://doxbin.com')
+if use_nouse == 'n': exit()
