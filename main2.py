@@ -31,5 +31,7 @@ print('''
 ''')
 
 use_nouse = str(input(' [?] open doxbin.org [y/n]: '))
-if use_nouse == 'y': webbrowser.open('https://doxbin.com')
+if use_nouse == 'y': 
+import webbrowser
+webbrowser.open('http://www.doxbin.com')
 if use_nouse == 'n': exit()
