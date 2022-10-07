@@ -4,6 +4,8 @@
 
 # remember to add cool dox templates #
 
+import webbrowser
+
 print('''\033[31m
 
 
