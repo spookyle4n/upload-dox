@@ -1,37 +1,29 @@
 # coded by wyatt g #
 
-# claiming this script as your own will result in a horrible death #
+print('''
 
-# remember to add cool dox templates #
-
-import webbrowser
-
-print('''\033[31m
-
-111111
-111111
-111111
-111111
-111111
-111111
-111111
-111111111111
-111111111111
-111111111111
-
-     
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111111111
+    111111111111
+    
 ''')
+
 print('''           
 
-                 educational purposes only!
-		 
+           educational purposes only!
 
 		   tiktok:  @jahsehrare
 		   instagram: @spookyle4n
 ''')
 
-use_nouse = str(input(' [?] open doxbin.org [y/n]: '))
-if use_nouse == 'y': 
+dox = str(input(' [?] open doxbin.org [y/n]: '))
 import webbrowser
-webbrowser.open('http://www.doxbin.com')
-if use_nouse == 'n': exit()
+if dox == 'y': webbrowser.open('http://www.doxbin.com')
+
+if dox == 'n': exit()
