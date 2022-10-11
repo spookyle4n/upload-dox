@@ -10,26 +10,27 @@ print('''
 
 ''')
 
-first_name = input("First Name: ")
-
-last_name = input("Last Name: ")
-
-address = input("Address: ")
-
-ip = input("ip: ")
-
-age = input("age: ")
+print('', end=' ', flush=True)
+time.sleep(0.5)
 
 print("victims first name : " + " " + first_name + " " + "\n")
+
+print('', end=' ', flush=True)
 time.sleep(0.5)
 
 print("victims last name : " + " " + last_name + " " + "\n")
+
+print('', end=' ', flush=True)
 time.sleep(0.5)
 
 print("victims address : " + " " + address + " " + "\n")
+
+print('', end=' ', flush=True)
 time.sleep(0.5)
 
 print("victims IP address : " + " " + ip + " " + "\n")
+
+print('', end=' ', flush=True)
 time.sleep(0.5)
 
 print("victims age : " + " " + age + " " + "\n")
